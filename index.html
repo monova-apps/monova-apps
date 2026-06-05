@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Monova Apps — An independent mobile app studio</title>
+  <meta name="description" content="Monova designs, builds, and ships delightful mobile apps to the App Store and Google Play. An independent app studio by the team at Monova Tech." />
+  <meta name="theme-color" content="#07080c" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Monova Apps — An independent mobile app studio" />
+  <meta property="og:description" content="We craft delightful mobile apps for iOS and Android. Part of Monova Tech." />
+  <meta property="og:site_name" content="Monova Apps" />
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+
+  <link rel="preconnect" href="https://api.fontshare.com" crossorigin />
+  <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&f[]=general-sans@400,500,600,700&display=swap" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg" aria-hidden="true">
+    <div class="bg__aurora bg__aurora--1"></div>
+    <div class="bg__aurora bg__aurora--2"></div>
+    <div class="bg__aurora bg__aurora--3"></div>
+    <div class="bg__grid"></div>
+    <div class="bg__grain"></div>
+  </div>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ───────── Nav ───────── -->
+  <header class="nav" id="top">
+    <div class="wrap nav__inner">
+      <a class="brand" href="#top" aria-label="Monova Apps home">
+        <span class="brand__mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" width="28" height="28">
+            <path d="M4 26V6l8 11 8-11 8 11v9" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+        <span class="brand__text">Monova<span class="brand__dot">.</span></span>
+        <span class="brand__tag">apps</span>
+      </a>
+
+      <div class="nav__cta">
+        <a class="btn btn--ghost" href="https://monovatech.com" target="_blank" rel="noopener">Monova&nbsp;Tech ↗</a>
+        <a class="btn btn--lime" href="contact.html">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ───────── Hero ───────── -->
+    <section class="hero wrap">
+      <div class="hero__copy">
+        <span class="eyebrow reveal" data-reveal>
+          <span class="eyebrow__dot"></span> An independent app studio · part of Monova Tech
+        </span>
+        <h1 class="hero__title">
+          <span class="reveal" data-reveal style="--d:.05s">Apps people keep</span>
+          <span class="reveal" data-reveal style="--d:.12s">on their <em>home screen.</em></span>
+        </h1>
+        <p class="hero__lead reveal" data-reveal style="--d:.2s">
+          Monova designs, builds, and ships delightful mobile experiences to the
+          App&nbsp;Store and Google&nbsp;Play — crafted end‑to‑end by a small team
+          that sweats every pixel and every millisecond.
+        </p>
+
+        <div class="hero__stores reveal" data-reveal style="--d:.28s">
+          <a class="store" href="#" aria-label="Download on the App Store">
+            <svg class="store__glyph" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16.5 1.6c.1 1-.3 2-.9 2.8-.7.8-1.7 1.4-2.7 1.3-.1-1 .4-2 1-2.7.6-.8 1.7-1.3 2.6-1.4zM19.6 17c-.5 1.2-.8 1.7-1.4 2.7-1 1.5-2.3 3.3-4 3.3-1.5 0-1.9-1-3.9-1-2 0-2.5 1-3.9 1-1.7 0-3-1.7-3.9-3.1C-.1 16.3-.6 11 1.6 8.2 2.7 6.7 4.6 5.8 6.4 5.8c1.7 0 2.8 1 4.2 1 1.4 0 2.2-1 4.2-1 1.5 0 3.2.9 4.3 2.3-3.8 2-3.2 7.4.5 8.9z"/></svg>
+            <span class="store__txt"><small>Download on the</small><strong>App Store</strong></span>
+          </a>
+          <a class="store" href="#" aria-label="Get it on Google Play">
+            <svg class="store__glyph store__glyph--play" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="#34d3a8" d="M3.6 2.3 13.4 12 3.6 21.7c-.4-.2-.6-.6-.6-1.1V3.4c0-.5.2-.9.6-1.1z"/>
+              <path fill="#ffd24a" d="m17.1 8.3 3 1.7c1 .6 1 1.9 0 2.5l-3 1.7-2.6-2.2 2.6-1.7z"/>
+              <path fill="#ff6a5e" d="M3.6 2.3c.3-.2.8-.2 1.2 0l11.2 6.4-2.6 2.6L3.6 2.3z"/>
+              <path fill="#5ed0ff" d="M13.4 12.7 16 15.3 4.8 21.7c-.4.2-.9.2-1.2 0l9.8-9z"/>
+            </svg>
+            <span class="store__txt"><small>Get it on</small><strong>Google Play</strong></span>
+          </a>
+        </div>
+
+        <ul class="hero__trust reveal" data-reveal style="--d:.36s">
+          <li><span class="stars" aria-hidden="true">★★★★★</span> 4.8 avg rating</li>
+          <li><b>4M+</b> downloads</li>
+          <li><b>12</b> apps shipped</li>
+        </ul>
+      </div>
+
+      <!-- Floating phone + orbiting app icons -->
+      <div class="hero__art" aria-hidden="true">
+        <div class="orbit orbit--a"><span class="chip" style="--c:#c4f24a">◎</span></div>
+        <div class="orbit orbit--b"><span class="chip" style="--c:#7c6bff">✦</span></div>
+        <div class="orbit orbit--c"><span class="chip" style="--c:#34d3a8">❤</span></div>
+        <div class="orbit orbit--d"><span class="chip" style="--c:#ff8a5c">$</span></div>
+
+        <div class="phone">
+          <div class="phone__notch"></div>
+          <div class="phone__screen">
+            <div class="ui">
+              <div class="ui__status"><span>9:41</span><span class="ui__dots">● ● ●</span></div>
+              <div class="ui__greet">Good morning,<br><strong>let's make today count.</strong></div>
+              <div class="ui__ring">
+                <svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="50" class="ui__track"/><circle cx="60" cy="60" r="50" class="ui__prog"/></svg>
+                <div class="ui__ringtxt"><b>78%</b><small>focus</small></div>
+              </div>
+              <div class="ui__row"><span class="ui__pill"></span><span class="ui__pill ui__pill--w"></span></div>
+              <div class="ui__cards">
+                <div class="ui__card"><i style="--c:#c4f24a"></i><span></span></div>
+                <div class="ui__card"><i style="--c:#7c6bff"></i><span></span></div>
+                <div class="ui__card"><i style="--c:#34d3a8"></i><span></span></div>
+                <div class="ui__card"><i style="--c:#ff8a5c"></i><span></span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero__glow"></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ───────── Footer ───────── -->
+  <footer class="footer footer--slim">
+    <div class="wrap footer__base">
+      <span>© <span id="year">2026</span> Monova Apps. A part of <a href="https://monovatech.com" target="_blank" rel="noopener">Monova&nbsp;Tech</a>.</span>
+      <span class="footer__links">
+        <a href="contact.html">Contact</a>
+        <a href="mailto:hello@monovatech.com">hello@monovatech.com</a>
+      </span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
