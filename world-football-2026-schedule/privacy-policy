@@ -1,0 +1,441 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy - World Cup 2026 Schedule</title>
+  <meta name="description" content="Privacy Policy for World Cup 2026 Schedule, an unofficial football schedule app with offline fixtures, local match times, favorites, and reminders." />
+  <style>
+    :root {
+      --bg: #f6f8fb;
+      --card: #ffffff;
+      --text: #111827;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+      --primary: #1d4ed8;
+      --navy: #07111f;
+      --green: #16a34a;
+      --gold: #f59e0b;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    header {
+      background: linear-gradient(135deg, #07111f, #0b1b33, #1d4ed8);
+      color: #ffffff;
+      padding: 48px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0 0 10px;
+      font-size: 34px;
+      font-weight: 800;
+    }
+
+    header p {
+      margin: 0;
+      color: #dbeafe;
+      font-size: 16px;
+    }
+
+    main {
+      max-width: 920px;
+      margin: -28px auto 40px;
+      padding: 0 16px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 28px;
+      box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+    }
+
+    h2 {
+      margin-top: 34px;
+      color: var(--navy);
+      font-size: 22px;
+    }
+
+    h3 {
+      margin-top: 24px;
+      color: var(--navy);
+      font-size: 18px;
+    }
+
+    p {
+      margin: 12px 0;
+    }
+
+    ul {
+      padding-left: 22px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .updated {
+      background: #eff6ff;
+      border-left: 4px solid var(--primary);
+      padding: 12px 14px;
+      border-radius: 10px;
+      color: #1e3a8a;
+      margin-bottom: 22px;
+    }
+
+    .notice {
+      background: #fffbeb;
+      border-left: 4px solid var(--gold);
+      padding: 14px;
+      border-radius: 10px;
+      color: #78350f;
+      margin: 18px 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 28px 16px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 28px;
+      }
+
+      .card {
+        padding: 22px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Privacy Policy</h1>
+    <p>World Cup 2026 Schedule</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <div class="updated">
+        <strong>Last updated:</strong> June 2026
+      </div>
+
+      <p>
+        This Privacy Policy explains how <strong>World Cup 2026 Schedule</strong>
+        (“the App,” “we,” “us,” or “our”) handles information when you use our Android mobile application
+        and related website pages.
+      </p>
+
+      <p>
+        World Cup 2026 Schedule is an unofficial football schedule app. It provides offline fixtures,
+        local match times, teams, groups, stadiums, favorites, reminders, and tournament-related schedule
+        information.
+      </p>
+
+      <div class="notice">
+        <strong>Unofficial App Notice:</strong>
+        This app is not affiliated with, endorsed by, sponsored by, or approved by FIFA or any tournament organizer.
+        Schedule information is based on publicly available match schedule information from official/public sources.
+        All trademarks, team names, tournament names, and related marks belong to their respective owners.
+      </div>
+
+      <h2>1. Information We Do Not Require</h2>
+      <p>
+        World Cup 2026 Schedule is designed to work without an account. We do not require users to sign up,
+        log in, or provide personal identity information to use the main features of the app.
+      </p>
+
+      <p>The app does not require:</p>
+      <ul>
+        <li>Name</li>
+        <li>Email address</li>
+        <li>Phone number</li>
+        <li>User account or password</li>
+        <li>Location permission</li>
+        <li>Payment information</li>
+        <li>Contacts</li>
+        <li>Calendar access</li>
+      </ul>
+
+      <h2>2. Information Stored Locally on Your Device</h2>
+      <p>
+        The app may store some information locally on your device so that the app can remember your preferences
+        and provide a better experience.
+      </p>
+
+      <p>Locally stored information may include:</p>
+      <ul>
+        <li>Favorite teams</li>
+        <li>Favorite matches</li>
+        <li>Match reminder settings</li>
+        <li>Notification timing preferences</li>
+        <li>Timezone preference</li>
+        <li>Theme preference, such as light mode, dark mode, or system default</li>
+        <li>Onboarding completion status</li>
+        <li>App settings</li>
+      </ul>
+
+      <p>
+        This information is intended to remain on your device. It is used to make the app work properly and
+        personalize your app experience.
+      </p>
+
+      <h2>3. Match Schedule and Offline Data</h2>
+      <p>
+        The app includes football match schedule information stored locally inside the app. This allows users
+        to view fixtures, teams, groups, stadiums, host cities, and match times even without an internet connection.
+      </p>
+
+      <p>
+        The offline schedule data does not identify you personally.
+      </p>
+
+      <h2>4. Timezone and Local Match Time</h2>
+      <p>
+        World Cup 2026 Schedule shows match kickoff times based on your device timezone or the timezone you
+        manually choose inside the app.
+      </p>
+
+      <p>
+        The app does not need your precise location to show local match times. It does not request GPS,
+        background location, or live location tracking.
+      </p>
+
+      <p>
+        Timezone settings may be stored locally on your device so that the app can continue showing match
+        times in your preferred timezone.
+      </p>
+
+      <h2>5. Notifications and Match Reminders</h2>
+      <p>
+        The app may request notification permission so it can send match reminders and schedule alerts.
+        Notifications are optional.
+      </p>
+
+      <p>Notifications may include:</p>
+      <ul>
+        <li>Today’s match summary</li>
+        <li>Tomorrow’s match summary</li>
+        <li>Favorite team match reminders</li>
+        <li>Favorite match reminders</li>
+        <li>Kickoff countdown alerts, such as 1 hour or 30 minutes before a match</li>
+      </ul>
+
+      <p>
+        These reminders are local app notifications based on the offline schedule and your selected settings.
+        You can disable notifications in the app settings or your Android device settings.
+      </p>
+
+      <h2>6. Favorites and Preferences</h2>
+      <p>
+        If you favorite a team or match, that information is stored locally on your device to help the app
+        highlight your selected teams and matches.
+      </p>
+
+      <p>
+        Favorites are not used to create an account, and they are not intended to be shared with us in v1.
+      </p>
+
+      <h2>7. Live Scores, Results, and Match Summaries</h2>
+      <p>
+        The current version of the app does not provide live scores, match results, live commentary,
+        streaming, betting, ticketing, or official tournament services.
+      </p>
+
+      <p>
+        If future versions add online data features, this Privacy Policy may be updated to explain any new
+        data processing, APIs, or third-party services.
+      </p>
+
+      <h2>8. Advertising</h2>
+      <p>
+        World Cup 2026 Schedule may show ads in the free version of the app.
+      </p>
+
+      <p>
+        If third-party advertising services such as Google AdMob are added, those services may collect or
+        process information such as device identifiers, advertising identifiers, approximate location,
+        app interactions, diagnostics, or other information according to their own privacy policies.
+      </p>
+
+      <p>
+        If ads are not enabled in your current app version, this section applies to future ad-supported versions.
+        When advertising is enabled, the Google Play Data Safety form should be updated accordingly.
+      </p>
+
+      <h2>9. Analytics and Diagnostics</h2>
+      <p>
+        The app may use analytics or crash reporting tools in the future to help understand app performance,
+        fix crashes, and improve reliability.
+      </p>
+
+      <p>
+        If analytics or diagnostics services are added, this Privacy Policy and the Google Play Data Safety
+        form should be updated to reflect those services.
+      </p>
+
+      <h2>10. Third-Party Links</h2>
+      <p>
+        The app may include links to official schedule sources, privacy policy pages, terms pages, support
+        pages, or other websites.
+      </p>
+
+      <p>
+        When you open an external website, that website may collect or process information according to its
+        own privacy policy. We are not responsible for the privacy practices of third-party websites.
+      </p>
+
+      <h2>11. How We Use Information</h2>
+      <p>
+        Information stored by the app is used for app functionality, including:
+      </p>
+
+      <ul>
+        <li>Showing match schedules</li>
+        <li>Displaying match times in your selected timezone</li>
+        <li>Saving favorite teams and matches</li>
+        <li>Scheduling match reminders</li>
+        <li>Remembering notification preferences</li>
+        <li>Remembering theme settings</li>
+        <li>Improving the user experience</li>
+        <li>Providing support if you contact us</li>
+      </ul>
+
+      <h2>12. Sharing of Information</h2>
+      <p>
+        We do not sell your personal information.
+      </p>
+
+      <p>
+        In the current offline-first version, favorites, reminders, timezone settings, and preferences are
+        intended to be stored locally on your device.
+      </p>
+
+      <p>
+        Information may be processed or shared only in limited situations, such as:
+      </p>
+
+      <ul>
+        <li>If you choose to open an external source link or website</li>
+        <li>If future versions include third-party ads, analytics, diagnostics, or APIs</li>
+        <li>If required by law</li>
+        <li>If needed to protect users, our rights, or the public</li>
+        <li>If you contact us for support</li>
+      </ul>
+
+      <h2>13. Data Retention</h2>
+      <p>
+        Locally stored app data remains on your device until you delete it, clear the app’s storage,
+        reset app settings, or uninstall the app.
+      </p>
+
+      <p>
+        Support emails or messages may be retained as long as needed to respond to your request and maintain
+        support records.
+      </p>
+
+      <h2>14. Data Deletion</h2>
+      <p>
+        Since the app does not require an account in v1, most app data is stored locally on your device.
+      </p>
+
+      <p>You can delete app data by:</p>
+      <ul>
+        <li>Removing favorite teams or matches inside the app</li>
+        <li>Clearing reminder settings inside the app</li>
+        <li>Clearing app data from Android system settings</li>
+        <li>Uninstalling the app</li>
+      </ul>
+
+      <p>
+        If you contacted us by email and want to request deletion of support communication, contact us at:
+        <a href="mailto:contact@mypetspal.org">contact@mypetspal.org</a>
+      </p>
+
+      <h2>15. Children’s Privacy</h2>
+      <p>
+        World Cup 2026 Schedule is intended for general audiences and is not directed to children under 13.
+        We do not knowingly collect personal information from children under 13.
+      </p>
+
+      <p>
+        If you believe a child has provided personal information to us, please contact us so we can take
+        appropriate action.
+      </p>
+
+      <h2>16. Security</h2>
+      <p>
+        We use reasonable safeguards to protect information. However, no method of storage or transmission is
+        completely secure.
+      </p>
+
+      <p>
+        Because app preferences and reminders are stored on your device in v1, you are responsible for
+        protecting access to your device.
+      </p>
+
+      <h2>17. International Users</h2>
+      <p>
+        If you use the app outside your country of residence, information may be processed in countries with
+        different data protection laws.
+      </p>
+
+      <h2>18. Changes to This Privacy Policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time. Any changes will be posted on this page with a
+        new “Last updated” date.
+      </p>
+
+      <p>
+        You are encouraged to review this Privacy Policy periodically.
+      </p>
+
+      <h2>19. Contact Us</h2>
+      <p>
+        If you have questions about this Privacy Policy or the app, contact us at:
+      </p>
+
+      <p>
+        <strong>Email:</strong>
+        <a href="mailto:contact@mypetspal.org">contact@mypetspal.org</a>
+      </p>
+
+      <p>
+        <strong>App:</strong> World Cup 2026 Schedule
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 World Cup 2026 Schedule. All rights reserved.</p>
+    <p>This is an unofficial football schedule app.</p>
+  </footer>
+</body>
+</html>
+```
